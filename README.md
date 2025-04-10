@@ -20,12 +20,19 @@ Create a database named studentdb and update credentials if needed.
 In studentproject/settings.py, confirm or update:
 
 DATABASES = {
+
     'default': {
+    
         'ENGINE': 'django.db.backends.postgresql',
+        
         'NAME': 'student_db',
+        
         'USER': 'postgres',
+        
         'PASSWORD': 'BScs123$', 
+        
         'HOST': 'localhost',
+        
         'PORT': '5432',
     }
 }
