@@ -2,7 +2,9 @@
 🖥Requirements
 
 Python 3.10+
+
 pip (Python package manager)
+
 PostgreSQL
 
 Steps to Run Locally
@@ -40,6 +42,7 @@ DATABASES = {
 3. Apply Migrations
    
 python manage.py makemigrations
+
 python manage.py migrate
 
 4. 🌐 Run the Development Server
