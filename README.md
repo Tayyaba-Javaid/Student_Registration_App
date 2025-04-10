@@ -1,11 +1,9 @@
 # Student_Registration_App
 ## Requirements
 
-   Python 3.10+
+   Install Python & Pip
 
-   pip (Python package manager)
-
-   PostgreSQL
+   Install PostgreSQL
 
 ## Steps to Run Locally
 
@@ -45,7 +43,7 @@
 
    python manage.py migrate
 
-### 4. 🌐 Run the Development Server
+### 4. Run the Server
    
    python manage.py runserver
 
